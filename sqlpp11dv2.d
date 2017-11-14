@@ -36,7 +36,6 @@ unittest {
         QueryBuilder
             .select("foo", "bar")
             .where_equal("foo", "abc")
-        == "select foo, bar from bazTable where foo='true'"
     );
 }
 
